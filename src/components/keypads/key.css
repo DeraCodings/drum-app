@@ -1,0 +1,25 @@
+.key{
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999797;
+    box-shadow: 2px 2px 4px #1b1b1b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.key:active, .key:focus{
+    box-shadow: none;
+}
+
+@media screen and (min-width: 980px) {
+    .key{
+        width: 6rem;
+        height: 6rem;
+        font-size: 2rem;
+    }
+}

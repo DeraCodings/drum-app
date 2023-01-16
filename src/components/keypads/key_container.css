@@ -1,0 +1,23 @@
+.key-container{
+    /* border: 1px solid black; */
+    min-width: 15rem;
+    max-width: fit-content;
+    min-height: 15rem;
+    max-height: fit-content;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 4rem);
+    grid-template-rows: repeat(3, 4rem);
+}
+
+@media screen and (min-width: 980px) {
+    .key-container{
+        grid-template-columns: repeat(3, 5rem);
+        grid-template-rows: repeat(3, 5rem);
+        min-width: 21rem;
+        min-height: 21rem;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,47 @@
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 15rem;
+    max-width: fit-content;
+    min-height: 15rem;
+    max-height: fit-content;
+    text-align: center;
+}
+
+.controls 
+.controls-wrapper 
+.select-items 
+select{
+    background-color: rgb(24, 21, 21);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    color: #0544a1;
+}
+
+.controls .controls-wrapper .select-items select:nth-last-child(1){
+    margin-top: 1rem;
+}
+
+.displayer{
+    background-color: #867f7f;
+    width: 20vw;
+    height: 4vh;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    padding: .5rem;
+}
+
+@media screen and (min-width: 980px) {
+    .controls{
+        min-width: 21rem;
+        min-height: 21rem;
+    }
+
+    .displayer{
+        width: 13vw;
+        height: 5vh;
+    }
+}
