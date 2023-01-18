@@ -1,4 +1,4 @@
-.key{
+.drum-pad{
     width: 4rem;
     height: 4rem;
     font-size: 1.5rem;
@@ -12,12 +12,12 @@
     border-radius: 5px;
 }
 
-.key:active, .key:focus{
+.drum-pad:active, .drum-pad:focus{
     box-shadow: none;
 }
 
 @media screen and (min-width: 980px) {
-    .key{
+    .drum-pad{
         width: 6rem;
         height: 6rem;
         font-size: 2rem;

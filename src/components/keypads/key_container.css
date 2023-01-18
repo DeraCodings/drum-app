@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Poppins:wght@600&family=Ubuntu:wght@500&display=swap');
+
 .key-container{
     /* border: 1px solid black; */
     min-width: 15rem;
@@ -10,6 +12,7 @@
     display: grid;
     grid-template-columns: repeat(3, 4rem);
     grid-template-rows: repeat(3, 4rem);
+    font-family: 'Bungee Outline', sans-serif;
 }
 
 @media screen and (min-width: 980px) {
